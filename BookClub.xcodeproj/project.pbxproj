@@ -12,6 +12,8 @@
 		CF9115CA2232B608002A1AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9115C82232B608002A1AB6 /* Main.storyboard */; };
 		CF9115CC2232B60A002A1AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9115CB2232B60A002A1AB6 /* Assets.xcassets */; };
 		CF9115CF2232B60A002A1AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9115CD2232B60A002A1AB6 /* LaunchScreen.storyboard */; };
+		CFC6ABD82244CA7100AF65EF /* CheckBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6ABD72244CA7100AF65EF /* CheckBooksViewController.swift */; };
+		CFC6ABDA2244CFDC00AF65EF /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6ABD92244CFDC00AF65EF /* AddBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CF9115CB2232B60A002A1AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF9115CE2232B60A002A1AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF9115D02232B60A002A1AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC6ABD72244CA7100AF65EF /* CheckBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBooksViewController.swift; sourceTree = "<group>"; };
+		CFC6ABD92244CFDC00AF65EF /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CF9115CB2232B60A002A1AB6 /* Assets.xcassets */,
 				CF9115CD2232B60A002A1AB6 /* LaunchScreen.storyboard */,
 				CF9115D02232B60A002A1AB6 /* Info.plist */,
+				CFC6ABD72244CA7100AF65EF /* CheckBooksViewController.swift */,
+				CFC6ABD92244CFDC00AF65EF /* AddBook.swift */,
 			);
 			path = BookClub;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC6ABDA2244CFDC00AF65EF /* AddBook.swift in Sources */,
 				CF9115C72232B608002A1AB6 /* ViewController.swift in Sources */,
 				CF9115C52232B608002A1AB6 /* AppDelegate.swift in Sources */,
+				CFC6ABD82244CA7100AF65EF /* CheckBooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
